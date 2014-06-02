@@ -6,7 +6,7 @@ $('.con').click(function(){
 
 });
 
-$('.pri').click(function(){
+$('.ab').click(function(){
 
 	$('.belt').animate({
 		'top' : '-1550px'
@@ -14,12 +14,20 @@ $('.pri').click(function(){
 
 });
 
+$('.pri').click(function(){
+
+	$('.belt').animate({
+		'top' : '-2330px'
+	},2000, "swing")
+
+});
+
 $('.men').click(function(){
 
 	$('.belt').animate({
-		'top' : '-2700px'
+		'top' : '-3220px'
 	},2000, "swing").animate({
-		'top' : '-2330px'
+		'top' : '-3115px'
 	},800, "swing")
 
 });
